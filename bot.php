@@ -55,7 +55,7 @@ $flag = $data['data']['countryInfo']['emoji'];
 ***Level:*** ```$level```
 ***Bank:*** ```$bank```
 ***Country:*** ```$country``` $flag
-***Type:*** ```$type ```");
+***Type:*** ```$type```");
     }
 else {
     send_message($chat_id,$message_id, "***Enter Valid BIN***");
