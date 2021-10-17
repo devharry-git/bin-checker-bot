@@ -49,13 +49,7 @@ $flag = $data['data']['countryInfo']['emoji'];
  $result1 = $data['result'];
 
     if ($result1 == true) {
-    send_message($chat_id,$message_id, "***✅ Valid BIN***
-***Bin:*** ```$bin```
-***Brand:*** ```$brand```
-***Level:*** ```$level```
-***Bank:*** ```$bank```
-***Country:*** ```$country``` $flag
-***Type:*** ```$type```");
+    send_message($chat_id,$message_id, "<b>✅ Valid BIN</b>%0A<b>Bin:</b> $bin%0A<b>Brand:</b> $brand%0A<b>Level:</b> $level%0A<b>Bank:</b> $bank%0A<b>Country:</b> $country $flag%0A<b>Type:</b> $type");
     }
 else {
     send_message($chat_id,$message_id, "***Enter Valid BIN***");
