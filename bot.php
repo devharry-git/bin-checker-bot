@@ -49,7 +49,7 @@ $flag = $data['data']['countryInfo']['emoji'];
  $result1 = $data['result'];
 
     if ($result1 == true) {
-    send_message($chat_id,$message_id, "𝐊𝐥𝐞𝐞
+    send_message($chat_id,$message_id, "***Klee Bot***
     
     ***Bin:*** $bin
     ***Brand:*** $brand ***Level:*** $level ***Type:*** $type
