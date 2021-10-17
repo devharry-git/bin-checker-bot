@@ -49,10 +49,12 @@ $flag = $data['data']['countryInfo']['emoji'];
  $result1 = $data['result'];
 
     if ($result1 == true) {
-    send_message($chat_id,$message_id, "    
+    send_message($chat_id,$message_id, "𝐊𝐥𝐞𝐞
+    
     ***Bin:*** $bin
-    ***Brand:*** $brand ***Level:*** $level ***Bank:*** $bank
-    ***Country:*** $country $flag ***Type:*** $type");
+    ***Brand:*** $brand ***Level:*** $level ***Type:*** $type
+    ***Country:*** $country $flag
+    ***Bank:*** $bank");
     }
 else {
     send_message($chat_id,$message_id, "***Enter Valid BIN***");
